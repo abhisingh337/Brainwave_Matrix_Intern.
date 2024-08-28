@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #e0e8ff;
+}
+
+header {
+    background-color: #24A3B5;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40 20px;
+}
+
+header .logo {
+    font-size: 40px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 40;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header .search-bar {
+    display: flex;
+}
+
+header .search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+}
+
+header .search-bar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #555;
+    color: white;
+    border-radius: 0 3px 3px 0;
+}
+
+.product-price {
+    font-weight: bold;
+    color: #333;
+}
+
+section {
+    padding: 20px;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.product h3 {
+    margin: 0 0 10px;
+}
+
+.product button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #24A3B5;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position:static;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    font-size: 14px;
+}
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.cart-item {
+    margin-bottom: 10px;
+}
+
+#cart {
+    max-width: 600px;
+    margin: 0 auto;
+}
